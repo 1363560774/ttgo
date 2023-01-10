@@ -44,7 +44,6 @@ void loop()
 {
      tft.drawString("Moonbeam ", 75, 120);
      tft.loadFont(font_50); //指定tft屏幕对象载入font_50字库
-     tft.drawString("赵凯",60,20); //在坐标0,0位置输出汉字,就可以在tft显示出来了
      tft.drawString("撸起袖子",60,60); //在坐标0,0位置输出汉字,就可以在tft显示出来了
      tft.drawString("加油干！",60,100);
      tft.unloadFont(); //释放字库文件,节省资源
